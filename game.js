@@ -6,6 +6,8 @@ let dificulty = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let random_sequence = [];
 let seq_user = [];
 let but = document.createElement("div");
+but.classList.add("square")
+but.classList.add("bg-primary")
 document.getElementById("f").appendChild(but)
 console.log(but)
 const greet_scaler = greet("Scaler");
