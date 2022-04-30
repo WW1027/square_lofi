@@ -1,10 +1,14 @@
-.square{
-    margin: 10px;
-    background-color: aqua;
-    height: 200px;
+.square {
+    margin: 1px;
+    border-radius: 10px;
+    border-width:5px;
+    border-style:solid;
+    background-color: rgb(127, 235, 206);
+    height: 170px;
+    width: 170px; 
 }
 .square-on{
-    background-color: red;
+    background-color: rgb(218, 116, 98);
 }
 
 @media (max-width: 600px) {
@@ -12,3 +16,41 @@
         height:100px;
     }
   }
+
+.title{
+    text-align: center;
+    font-family: "Courier", sans-serif;
+    font-weight: bold;
+    font-size: 40; 
+}
+
+.container3{
+    column-count: 1;
+    width: 600px;
+    justify-content: center;
+    position:static;
+}
+
+.container2{
+    column-count: 1;
+    width: 400px;
+    justify-content: center;
+    position:static;
+}
+
+.container4{
+    column-count: 1;
+    width: 800px;
+    justify-content: center;
+    position:static;
+}
+
+.row{
+    justify-content: center;
+    justify-items: center;
+}
+
+body {
+    justify-items: center;
+    justify-content: center;
+}

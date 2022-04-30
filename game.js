@@ -5,7 +5,9 @@ let dificulty = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 let random_sequence = [];
 let seq_user = [];
-
+let but = document.createElement("div");
+document.getElementById("f").appendChild(but)
+console.log(but)
 const greet_scaler = greet("Scaler");
 
 console.log(greet_scaler); // Hello, Scaler
@@ -14,7 +16,7 @@ console.log(generate_random_seq(5, [3, 3]));
 
 let square = document.querySelector(".square");
 let f = true;
-let j=10000
+let j=10000; 
 
 while (j!=0) {
   console.log("hola");
