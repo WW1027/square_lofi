@@ -1,0 +1,14 @@
+.square{
+    margin: 10px;
+    background-color: aqua;
+    height: 200px;
+}
+.square-on{
+    background-color: red;
+}
+
+@media (max-width: 600px) {
+    .square {
+        height:100px;
+    }
+  }
