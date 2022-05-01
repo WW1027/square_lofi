@@ -15,60 +15,43 @@
       type="text/css"
       rel="noopener"
       target="_blank"
-      href="style.css"
+      href="style/style.css"
     />
   </head>
   <body>
+    <embed src="resources/bgmMusic.mp3" loop="true" autostart="true" width="2" height="0">
     &nbsp;
       <div class="title"> CLICK BY ORDER!!</div>
       &nbsp;
-      <div class="row">
-        <div class="container3">
-          <div id="f" class="row row-cols-3 justify-content-center">
-            <div class="square">Column</div>
-            <div class="square">Column</div>
-            <div class="square">Column</div>
-            <div class="square">Column</div>
-            <div class="square">Column</div>
-            <div class="square">Column</div>
-            <div class="square">Column</div>
-            <div class="square">Column</div>
-            <div class="square">Column</div>
+      
+      <div  class="row">
+        <div id ="game" class="container2">
+            <div class="row" style="padding-bottom: 20px;">
+                <div class="col-5">
+                  <select  id="selector"  class="form-select" aria-label="Default select example">
+                    
+                    <option selected value="1">Easy</option>
+                    <option  value="2">Medium</option>
+                    <option value="3">Hard</option>
+                    <option value="4">Hell</option>
+                  </select>
+                </div>
+                <div class="col-5">
+                    <button id="play" type="button" class="btn btn-success">Play !!</button>
+                </div>
+                
+            </div>
+          <div id="board" class="row row-cols justify-content-center">
+          </div>
+          <div class="row">
+          <div id="dificulty" class="text-center " style="margin-top: 20px;">
+              
           </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="container2">
-          <div id="f" class="row row-cols-2 justify-content-center">
-            <div class="square">Column</div>
-            <div class="square">Column</div>
-            <div class="square">Column</div>
-            <div class="square">Column</div>
-          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="container4">
-          <div id="f" class="row row-cols-4 justify-content-center">
-            <div class="square">Column</div>
-            <div class="square">Column</div>
-            <div class="square">Column</div>
-            <div class="square">Column</div>
-            <div class="square">Column</div>
-            <div class="square">Column</div>
-            <div class="square">Column</div>
-            <div class="square">Column</div>
-            <div class="square">Column</div>
-            <div class="square">Column</div>
-            <div class="square">Column</div>
-            <div class="square">Column</div>
-            <div class="square">Column</div>
-            <div class="square">Column</div>
-            <div class="square">Column</div>
-            <div class="square">Column</div>
-          </div>
-        </div>
-      </div>
+
+    </div>
   </body>
-  <script type="module" src="game.js"></script>
+  <script type="module" src="src/game.js"></script>
 </html>
